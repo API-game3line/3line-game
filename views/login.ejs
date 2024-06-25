@@ -9,14 +9,15 @@
 <body>
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="/login">Login</a></li>
             <li><a href="/register">Register</a></li>
         </ul>
     </nav>
+
     <div class="container">
         <div class="form-container" id="login-form">
             <h1>Login</h1>
-            <form>
+            <form action="/auth/login" method="post">
               <label for="username">Username</label>
               <input type="text" id="username" name="username" required>
               <label for="password">Password</label>
@@ -26,5 +27,6 @@
             <p>Don't have an account? <a href="/register">Sign up</a></p>
           </div>
     </div>
+    <script src="/client/js/auth.js"></script>
 </body>
 </html>
