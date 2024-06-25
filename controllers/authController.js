@@ -35,7 +35,7 @@ exports.login = async (req, res) => {
         }
 
         // Redirigir al usuario a la página de login después del registro exitoso
-        res.redirect('/game');
+        res.redirect('/index');
     } catch (error) {
         console.error(error);
         res.status(500).send('Server error');
