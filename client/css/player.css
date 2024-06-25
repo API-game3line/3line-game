@@ -1,17 +1,17 @@
-*{
+* {
     color: white;
     font-family: sans-serif;
     transition: 0.2s ease-in-out;
     user-select: none;
-
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #252A34;
-    
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+
 .form-container {
     width: 600px;
     margin: 0 auto;
@@ -19,9 +19,52 @@ body{
     background-color: #333;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: #fff;
-  }
-  input {
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.table-container th {
+    background-color: #444;
+    color: #b38bff;
+    font-weight: bold;
+}
+
+.table-container td {
+    background-color: #555;
+}
+
+.table-container tr:nth-child(even) td {
+    background-color: #666;
+}
+
+.table-container caption {
+    margin: 10px;
+    font-size: 18px;
+    color: #b38bff;
+}
+.navlink {
+    font-size: 18px;
+    color: #b38bff;
+}
+
+input {
     display: block;
     width: 100%;
     padding: 12px;
@@ -31,7 +74,8 @@ body{
     font-size: 16px;
     color: #fff;
     background-color: #555 !important;
-  }
+}
+
 button {
     padding: 10px;
     background-color: #b38bff;
@@ -41,28 +85,22 @@ button {
     cursor: pointer;
     font-size: 18px;
     transition: background-color 0.2s ease-in-out;
-  }
+}
 
-  button:hover {
-    background-color: #8c5fb2;
-  }
 button:hover {
     background-color: #8c5fb2;
-  }
-  a {
+}
+
+a {
     text-decoration: none;
     color: #b38bff;
     font-size: 18px;
     transition: color 0.2s ease-in-out;
-  }
+}
 
-  a:hover {
+a:hover {
     color: #8c5fb2;
-  }
-  .navlink {
-    font-size: 18px;
-    color: #b38bff;
 }
 .nav-color{
-  background-color: #333;
+    background-color: #333;
 }
