@@ -16,5 +16,9 @@ router.get('/login', (req, res) => {
     res.render('login'); // Renderizamos la vista login.ejs
 });
 
+router.get('/game', (req, res) => {
+    res.render('game'); // Renderizamos la vista login.ejs
+});
+
 
 module.exports = router;
